@@ -1,0 +1,159 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+anui := inanimate-noun-lex &
+  [ STEM < "anui" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_anui_n_rel" ].
+
+bataa := inanimate-noun-lex &
+  [ STEM < "bataa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bataa_n_rel" ].
+
+tama := inanimate-noun-lex &
+  [ STEM < "tama" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tama_n_rel" ].
+
+baleei := inanimate-noun-lex &
+  [ STEM < "baleei" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_baleei_n_rel" ].
+
+mea := inanimate-noun-lex &
+  [ STEM < "mea" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mea_n_rel" ].
+
+wata := inanimate-noun-lex &
+  [ STEM < "wata" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_wata_n_rel" ].
+
+wii := inanimate-noun-lex &
+  [ STEM < "wii" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_wii_n_rel" ].
+
+ara := inanimate-noun-lex &
+  [ STEM < "ara" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ara_n_rel" ].
+
+kupaai := inanimate-noun-lex &
+  [ STEM < "kupaai" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kupaai_n_rel" ].
+
+kaai := animate-noun-lex &
+  [ STEM < "kaai" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kaai_n_rel" ].
+
+kamai := animate-noun-lex &
+  [ STEM < "kamai" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kamai_n_rel" ].
+
+fe := animate-noun-lex &
+  [ STEM < "fe" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fe_n_rel" ].
+
+kafiyei := animate-noun-lex &
+  [ STEM < "kafiyei" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kafiyei_n_rel" ].
+
+ruwol := animate-noun-lex &
+  [ STEM < "ruwol" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ruwol_n_rel" ].
+
+afu := animate-noun-lex &
+  [ STEM < "afu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_afu_n_rel" ].
+
+ama := human-noun-lex &
+  [ STEM < "ama" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ama_n_rel" ].
+
+feela := human-noun-lex &
+  [ STEM < "feela" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_feela_n_rel" ].
+
+maama := human-noun-lex &
+  [ STEM < "maama" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_maama_n_rel" ].
+
+moku := human-noun-lex &
+  [ STEM < "moku" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_moku_n_rel" ].
+
+tuong := human-noun-lex &
+  [ STEM < "tuong" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tuong_n_rel" ].
+
+;;; Case-marking adpositions
+
+a_case-marker := case-marking-adp-lex &
+  [ STEM < "di" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.CLAUSE #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS <!  !> ],
+                   CAT.HEAD.CASE age ] ].
+
+;;; Verbs
+
+sei_1 := 0_0verb-verb-lex &
+  [ STEM < "sei" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sei_v_1_rel" ].
+
+marang_1 := 0_0verb-verb-lex &
+  [ STEM < "marang" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_marang_v_1_rel" ].
+
+beeka := 0_0verb-verb-lex &
+  [ STEM < "beeka" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_beeka_v_rel" ].
+
+afeida := 0_0verb-verb-lex &
+  [ STEM < "afeida" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_afeida_v_rel" ].
+
+sei_2 := A_0verb-verb-lex &
+  [ STEM < "sei" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sei_v_2_rel" ].
+
+marang_2 := A_0verb-verb-lex &
+  [ STEM < "marang" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_marang_v_2_rel" ].
+
+pa := A_0verb-verb-lex &
+  [ STEM < "pa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pa_v_rel" ].
+
+me := A_0verb-verb-lex &
+  [ STEM < "me" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_me_v_rel" ].
+
+we := A_0verb-verb-lex &
+  [ STEM < "we" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_we_v_rel" ].
+
+laak := A_0verb-verb-lex &
+  [ STEM < "laak" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_laak_v_rel" ].
+
+yaa := A_0verb-verb-lex &
+  [ STEM < "yaa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_yaa_v_rel" ].
+
+lol := A_0verb-verb-lex &
+  [ STEM < "lol" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lol_v_rel" ].
+
+furei := A_0verb-verb-lex &
+  [ STEM < "furei" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_furei_v_rel" ].
+
+ayong := A_0verb-verb-lex &
+  [ STEM < "ayong" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ayong_v_rel" ].
+
+;;; Determiners
+
+do := determinative-determiner-lex &
+  [ STEM < "do" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_do_q_rel" ].
+
+to := determinative-determiner-lex &
+  [ STEM < "to" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_to_q_rel" ].

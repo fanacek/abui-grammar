@@ -1,0 +1,155 @@
+
+version=28
+
+section=general
+language=Abui
+iso-code=abz
+punctuation-chars=discard-all
+archive=yes
+email=fkratochvil@ntu.edu.sg
+affiliation=Nanyang Technological University
+motivation=learning how to use HPSG grammars
+vcs=git
+
+section=word-order
+word-order=v-final
+has-dets=yes
+noun-det-order=noun-det
+has-aux=no
+
+section=number
+  number1_name=singular
+    number1_supertype1_name=number
+  number2_name=plural
+    number2_supertype1_name=number
+  number3_name=distributive
+    number3_supertype1_name=plural
+
+section=person
+person=1-2-3-4
+first-person=incl-excl
+incl-excl-number=plural
+
+section=gender
+
+section=case
+case-marking=fluid-s
+fluid-s-a-case-name=agentive
+fluid-s-o-case-name=plain
+
+section=direct-inverse
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+
+section=coordination
+
+section=matrix-yes-no
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_name=inanimate
+  noun1_det=opt
+    noun1_stem1_orth=anui
+    noun1_stem1_pred=_anui_n_rel
+    noun1_stem2_orth=bataa
+    noun1_stem2_pred=_bataa_n_rel
+    noun1_stem3_orth=tama
+    noun1_stem3_pred=_tama_n_rel
+    noun1_stem4_orth=baleei
+    noun1_stem4_pred=_baleei_n_rel
+    noun1_stem5_orth=mea
+    noun1_stem5_pred=_mea_n_rel
+    noun1_stem6_orth=wata
+    noun1_stem6_pred=_wata_n_rel
+    noun1_stem7_orth=wii
+    noun1_stem7_pred=_wii_n_rel
+    noun1_stem8_orth=ara
+    noun1_stem8_pred=_ara_n_rel
+    noun1_stem9_orth=kupaai
+    noun1_stem9_pred=_kupaai_n_rel
+  noun2_name=animate
+  noun2_det=opt
+    noun2_stem1_orth=kaai
+    noun2_stem1_pred=_kaai_n_rel
+    noun2_stem2_orth=kamai
+    noun2_stem2_pred=_kamai_n_rel
+    noun2_stem3_orth=fe
+    noun2_stem3_pred=_fe_n_rel
+    noun2_stem4_orth=kafiyei
+    noun2_stem4_pred=_kafiyei_n_rel
+    noun2_stem5_orth=ruwol
+    noun2_stem5_pred=_ruwol_n_rel
+    noun2_stem6_orth=afu
+    noun2_stem6_pred=_afu_n_rel
+  noun3_name=human
+  noun3_supertypes=noun2
+  noun3_det=opt
+    noun3_stem1_orth=ama
+    noun3_stem1_pred=_ama_n_rel
+    noun3_stem2_orth=feela
+    noun3_stem2_pred=_feela_n_rel
+    noun3_stem3_orth=maama
+    noun3_stem3_pred=_maama_n_rel
+    noun3_stem4_orth=moku
+    noun3_stem4_pred=_moku_n_rel
+    noun3_stem5_orth=tuong
+    noun3_stem5_pred=_tuong_n_rel
+  verb1_name=0_0verb
+  verb1_valence=o_case
+    verb1_stem1_orth=sei
+    verb1_stem1_pred=_sei_v_1_rel
+    verb1_stem2_orth=marang
+    verb1_stem2_pred=_marang_v_1_rel
+    verb1_stem3_orth=beeka
+    verb1_stem3_pred=_beeka_v_rel
+    verb1_stem4_orth=afeida
+    verb1_stem4_pred=_afeida_v_rel
+  verb2_name=A_0verb
+  verb2_valence=a_case
+    verb2_stem1_orth=sei
+    verb2_stem1_pred=_sei_v_2_rel
+    verb2_stem2_orth=marang
+    verb2_stem2_pred=_marang_v_2_rel
+    verb2_stem3_orth=pa
+    verb2_stem3_pred=_pa_v_rel
+    verb2_stem4_orth=me
+    verb2_stem4_pred=_me_v_rel
+    verb2_stem5_orth=we
+    verb2_stem5_pred=_we_v_rel
+    verb2_stem6_orth=laak
+    verb2_stem6_pred=_laak_v_rel
+    verb2_stem7_orth=yaa
+    verb2_stem7_pred=_yaa_v_rel
+    verb2_stem8_orth=lol
+    verb2_stem8_pred=_lol_v_rel
+    verb2_stem9_orth=furei
+    verb2_stem9_pred=_furei_v_rel
+    verb2_stem10_orth=ayong
+    verb2_stem10_pred=_ayong_v_rel
+  det1_name=determinative
+    det1_stem1_orth=do
+    det1_stem1_pred=_do_q_rel
+    det1_stem2_orth=to
+    det1_stem2_pred=_to_q_rel
+  adp1_orth=di
+  adp1_opt=on
+  adp1_order=after
+    adp1_feat1_name=case
+    adp1_feat1_value=a_case
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+
+section=gen-options
+
+section=ToolboxLexicon
