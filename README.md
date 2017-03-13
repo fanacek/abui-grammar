@@ -1,22 +1,9 @@
 # abui-grammar
-a computational grammar of Abui (Papuan, Timor-Alor-Pantar family, Indonesia)
+A computational grammar of Abui (Papuan, Timor-Alor-Pantar family, Indonesia).
 
-this grammar is | Header One     | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |
+As of March 2017, the grammar covers the basic patterns of mono- and bi-valent verbs, basics of case and word order.
+
+MRS testsuite and basic testsuites are available.
 
 
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Copyright (c)  Copyright Holder All Rights Reserved.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-|
-
-- [ ]  | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |
-
-**very bold text here**
+This project was supported by the Affectedness project, under the Singapore Ministry of Education Tier 2 grant (grant number MOE2013-T2-1-016).

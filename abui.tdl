@@ -41,6 +41,10 @@ pla := flu.  ; plain
 
 ;;; Pernum
 
+;;;FJK := František Kratochvíl
+;;;FJK@15Feb2017
+;;;sorts are defined as label := label (& label). ;;; the second label is optional and must be linked with "&"
+;;;types are defined as label := label & [FEATURE].
 pernum := *top*.
 singular := pernum.
 plural := pernum.

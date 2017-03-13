@@ -1,4 +1,5 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Abui specific rules (FK can add here)
 comp-head := comp-head-phrase.
 
 subj-head := subj-head-phrase.
